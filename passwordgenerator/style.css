@@ -1,0 +1,97 @@
+.root{
+    --darkestb:#0D1B2A;
+    --darkerb:#1B263B;
+    --darkb:#415A77;
+    --blue:#778DA9;
+    --light:#E0E1DD;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Courier New", Courier, monospace;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color:#0D1B2A;
+}
+header{
+    padding: 2rem 4rem;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+header h1{
+    color:#E0E1DD;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 2.3rem;
+    padding-bottom: 1.5rem;
+    padding-top: 3rem;
+    margin-bottom: 7px;
+}
+header h3{
+    color: #778DA9;
+    font-weight: 400;
+    padding-bottom: 1rem;
+}
+#passlen{
+    display: flex;
+}
+input,button{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;
+}
+#len{
+    flex: 0.7 0.5 0%;
+    padding: 15px;
+    background-color:#1B263B;
+    border-radius: 15px;
+    margin-right: 1rem;
+    font-weight: 700;
+    font-size: medium;
+    color: #E0E1DD;
+}
+#len ::placeholder{
+    color: #e0e1dd9b;
+}
+#pass-gen{
+    background-color:#1B263B;
+    border-radius: 15px;
+    width: 2 1 0%;
+    color:cadetblue;
+    font-weight: 700;
+    font-size: medium;
+}
+#pass-gen:hover{
+    background-color: #e0e1dd8e;
+    color: #1B263B;
+}
+section{
+    padding: 2rem 4rem;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+section h3{
+    color: #778DA9;
+}
+main input{
+    border: none;
+    appearance: none;
+    outline: none;
+    flex: 0.7 0.5 0%;
+    padding: 15px;
+    background-color:#1B263B;
+    border-radius: 15px;
+    margin-right: 1rem;
+    font-weight: 700;
+    font-size: medium;
+    color: #E0E1DD;
+    width: 65%;
+
+}
